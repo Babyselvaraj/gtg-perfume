@@ -269,7 +269,7 @@ function animateCounter(element, start, end, duration) {
             window.requestAnimationFrame(step);
         }
     };
-    //window.requestAnimationFrame(step);
+    window.requestAnimationFrame(step);
 }
 
 // Initialize counter animation when stats section is visible
